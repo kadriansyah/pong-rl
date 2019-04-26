@@ -1,2 +1,2 @@
-model_checkpoint_path: "model.ckpt-6000"
-all_model_checkpoint_paths: "model.ckpt-6000"
+model_checkpoint_path: "pong_20190422_153304_model.ckpt-11330"
+all_model_checkpoint_paths: "pong_20190422_153304_model.ckpt-11330"

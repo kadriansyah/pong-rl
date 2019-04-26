@@ -1,5 +1,6 @@
 # Please specify your Google Cloud Storage bucket here
 # GCS_BUCKET="gs://my-bucket/"
+GCS_BUCKET="gs://alobrain-ml-training/"
 BUCKET=$GCS_BUCKET
 
 TRAINER_PACKAGE_PATH="./trainer"
@@ -14,7 +15,7 @@ gcloud ml-engine jobs submit training $JOB_NAME \
     --job-dir $JOB_DIR \
     --package-path $TRAINER_PACKAGE_PATH \
     --module-name $MAIN_TRAINER_MODULE \
-    --region us-central1 \
+    --region asia-east1 \
     --config config.yaml \
     --runtime-version 1.10 \
     -- \

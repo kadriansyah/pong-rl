@@ -186,7 +186,7 @@ def main(args):
                     episode_memory = []
 
                     if args.render:
-                        print('episode done, continue to replay')
+                        print("episode done, continue to replay {}".format(_reward))
                         # _ = input('episode done, press Enter to replay')
                         epoch_memory = []
                         continue
